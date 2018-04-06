@@ -2,13 +2,22 @@
 <html>
     <head>
         <title>Some CSS</title>
+        <link rel = "stylesheet"
+            type = "text/css"
+            href = "anExternal.css" />
     </head>
     <body>
         <p style="font-family:verdana;">This paragraph is in Verdana.</p>
         <p style="font-family:courier;">This paragraph is in Courier.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg" style="width:50px;height:50px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Hopetoun_falls.jpg" style="width:50px;height:50px;float:right">
         <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/05/featured_art_heal_forests.jpg?"
-                style="width:50px;height:50px;">
+                style="width:50px;height:50px;float:right">
         <p style="color:green">This paragraph is green.</p>
+        <div class="container">
+        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/05/featured_art_heal_forests.jpg?"
+                style="width:1280px;height:720px;margin:20px">
+        <div class="centered">This text is centered.</div>
+        </div>
+        <p style="border:5px;border-style:dotted;border-radius:50px">This text has a dotted border with rounded corners.</p>
     </body>
 </html>
